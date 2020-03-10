@@ -1,0 +1,179 @@
+body{
+	background-image: linear-gradient(to right,#7F8688,#929D9E,#7F8688);
+	color: #F3E367;
+	padding: 0;
+	margin: 0;
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+}
+.nav-bar {
+	overflow: hidden;
+	/*top: 0px;
+	padding: 0px;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	font-size: 20px;
+	margin-bottom: 20px;
+	/*margin: 10px;*/
+	/*float: right;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 0;
+	padding: 10px 15px;*/
+}
+.nav-bar > a{
+	text-decoration: none;
+	margin-top: 40px;
+	margin-right: 20px;
+	padding: 10px;
+	color: #F3E367;
+}
+a:hover{
+	background-color: gray;
+	color: white;
+	/*margin: 0px;*/
+}
+#name{
+	/*font-family: 'Bangers', cursive;*/
+	/*font-family: 'Zhi Mang Xing', cursive;*/
+	/*font-family: 'Dancing Script', cursive;*/
+	/*font-family: 'Comfortaa', cursive;*/
+	font-family: 'Amatic SC', cursive;
+	font-size: 75px;
+	text-align: center;
+	margin-right: auto;/* how does this step align the name to the left of the nav-bar */
+	padding-top: 5px;
+	padding-left: 7px;
+}
+#my-photo{
+	/*position: relative;*/
+	/*border: 3px solid black;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+	border-radius: 50%;
+	/*float: right;*/
+	float: center; 
+	height: 400px;
+	width: 400px;
+}
+/*.boxes{
+	/*overflow: auto;
+	font-size: 30px;
+		border-bottom: 2px solid white;
+	border-top: 2px solid white;*/
+}
+#text-start{
+	/*height: auto;
+	height: 100%;*/
+	text-align: center;
+}
+#mee{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-color: #4d4d4d;
+	padding-left: 7px;
+	padding-right: 7px; 
+}
+#code,#food,#tennis,#zzz{
+	/*float:right;*/
+	margin: 0px;
+	border-radius: 50%;
+	height: 140px;
+	width: 140px;
+	padding: 30px;
+}
+#intro{
+	
+	text-align: center;
+}
+#text{
+	background-color: #4d4d4d;
+	text-align: center;
+
+}
+#interests{
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/*.contact{
+	background-color: black;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 0;
+*/
+}
+#github{
+	height: 10px;
+	width: 10px;
+}
+#int{
+	display: flex;
+	flex-direction: column;
+}
+/*#copyright{
+	margin: 0 50% 0 50%;
+}*/
+/*#animations{
+	color: red;
+	font-size: 15px
+	animation: dil 0.5s infinite alternate;
+	transform-origin: center;
+
+}*/
+/*@keyframes dil{
+	0% {transform: scale(1.5);}
+	50% {transform: scale(2);}
+	100% {transform: scale(1.5);}
+}*/
+#about{
+	background-color: #4d4d4d;
+	position: absolute;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+#v{
+	float: right;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+}
+#contact{
+	background-color: #4d4d4d;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+}
+#love{
+	color: red;
+	height: 20px;
+	width: 20px;
+	animation-name: heartbeat;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	transform-origin: center;
+	display: inline-block;
+}
+@keyframes heartbeat{
+	25% {transform: scale(1.5,1.5);}
+	50% {transform: scale(2,2);}
+	75% {transform: scale(2.2,2.2);}
+	100% {transform: scale(2.5,2.5);}
+}
+.contact-images{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+#ids{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+
+}
+#love-text{
+	text-align: center;
+}
